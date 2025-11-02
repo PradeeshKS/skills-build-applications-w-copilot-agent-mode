@@ -1,0 +1,142 @@
+
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #222;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.navbar-brand img {
+  height: 40px;
+  margin-right: 12px;
+}
+.nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.nav-link:hover {
+  color: #ffd700 !important;
+}
+
+.card-header {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+.table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.table th {
+  background: #007bff;
+  color: #fff;
+  font-weight: 600;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f2f6fc;
+}
+.btn {
+  border-radius: 20px;
+  font-weight: 500;
+  padding: 0.5em 1.5em;
+  transition: background 0.2s;
+}
+.btn-primary {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  border: none;
+}
+.btn-primary:hover {
+  background: linear-gradient(90deg, #0056b3 0%, #00aaff 100%);
+}
+.btn-success {
+  background: linear-gradient(90deg, #28a745 0%, #00c851 100%);
+  border: none;
+}
+.btn-success:hover {
+  background: linear-gradient(90deg, #218838 0%, #009e4d 100%);
+}
+.btn-info {
+  background: linear-gradient(90deg, #17a2b8 0%, #00c6ff 100%);
+  border: none;
+}
+.btn-info:hover {
+  background: linear-gradient(90deg, #117a8b 0%, #00aaff 100%);
+}
+.btn-warning {
+  background: linear-gradient(90deg, #ffc107 0%, #ffecb3 100%);
+  border: none;
+  color: #222;
+}
+.btn-warning:hover {
+  background: linear-gradient(90deg, #e0a800 0%, #ffe066 100%);
+}
+.btn-secondary {
+  background: linear-gradient(90deg, #6c757d 0%, #adb5bd 100%);
+  border: none;
+}
+.btn-secondary:hover {
+  background: linear-gradient(90deg, #495057 0%, #868e96 100%);
+}
+.h4, h2, h1 {
+  color: #007bff;
+  font-weight: bold;
+}
+.App-link {
+  color: #00c6ff;
+  text-decoration: underline;
+}
+.App-link:hover {
+  color: #007bff;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
